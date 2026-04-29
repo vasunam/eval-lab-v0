@@ -66,8 +66,14 @@ def cost_quality_frontier():
     rows = []
     for m in MODELS:
         s = scores[m]
-        dims = [avg(s[d]) for d in ["actionability", "specificity", "completeness", "human"] if avg(s[d]) is not None]
-        composite = round(sum(dims) / len(dims), 2) if dims else None
+        code = avg(s["code"])
+        type2_dims = [avg(s[d]) for d in ["actionability", "specificity", "completeness"] if avg(s[d]) is not None]
+        type2_avg = round(sum(type2_dims) / len(type2_dims), 2) if type2_dims else None
+        human = avg(s["human"])
+        if code is not None and type2_avg is not None and human is not None:
+            composite = round(0.2 * (code * 5) + 0.5 * type2_avg + 0.3 * human, 2)
+        else:
+            composite = None
         rows.append({"model": m, "cost": avg_cost.get(m, 0), "composite": composite})
 
     df = pd.DataFrame(rows).dropna()

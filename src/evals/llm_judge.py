@@ -1,4 +1,4 @@
-"""LLM-judge eval: 3 dimensions, majority vote across 3 runs."""
+"""LLM-judge eval: 3 dimensions, two judge models, majority vote + agreement check."""
 import json
 import time
 from pathlib import Path
@@ -8,7 +8,10 @@ import litellm
 
 load_dotenv()
 
-JUDGE_MODEL = "anthropic/claude-opus-4-5"
+JUDGE_MODELS = {
+    "claude-opus-4-5": "anthropic/claude-opus-4-5",
+    "gpt-4o-mini": "openai/gpt-4o-mini",
+}
 JUDGE_TEMPERATURE = 0.3
 JUDGE_RUNS = 3
 
@@ -61,33 +64,42 @@ Summary:
 Return JSON only: {{"score": int, "rationale": str, "missing_ideas": [str]}}"""
 
 
-def judge_once(prompt: str) -> dict:
+def judge_once(model_id: str, prompt: str) -> tuple[dict, float, float]:
+    """Returns (parsed_result, latency_s, cost_usd)."""
+    start = time.time()
     response = litellm.completion(
-        model=JUDGE_MODEL,
+        model=model_id,
         messages=[{"role": "user", "content": prompt}],
         temperature=JUDGE_TEMPERATURE,
     )
+    latency = round(time.time() - start, 2)
+    cost = litellm.completion_cost(completion_response=response)
     content = response.choices[0].message.content
     try:
-        return json.loads(content)
+        return json.loads(content), latency, cost
     except json.JSONDecodeError:
-        return {"score": None, "rationale": content, "parse_error": True}
+        return {"score": None, "rationale": content, "parse_error": True}, latency, cost
 
 
-def majority_vote(scores: list[int | None]) -> int | None:
+def majority_vote(scores: list) -> int | None:
     valid = [s for s in scores if s is not None]
-    if not valid:
-        return None
-    return round(sum(valid) / len(valid))
+    return round(sum(valid) / len(valid)) if valid else None
 
 
 def truncate(text: str, max_chars: int = 6000) -> str:
     return text[:max_chars] + "..." if len(text) > max_chars else text
 
 
+def judge_agreement(score_a: int | None, score_b: int | None) -> float | None:
+    if score_a is None or score_b is None:
+        return None
+    return abs(score_a - score_b)
+
+
 def main():
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
     all_results = {}
+    judge_cost_log = {m: {"total_cost": 0.0, "total_latency": 0.0, "calls": 0} for m in JUDGE_MODELS}
 
     for model_dir in OUTPUTS_DIR.iterdir():
         if not model_dir.is_dir():
@@ -110,25 +122,53 @@ def main():
             for dim, prompt_template, kwargs in [
                 ("actionability", ACTIONABILITY_PROMPT, {"output": output_str}),
                 ("specificity", SPECIFICITY_PROMPT, {"transcript": transcript, "output": output_str}),
-                ("completeness", COMPLETENESS_PROMPT, {"transcript": transcript, "output_summary": output.get("summary", "") if isinstance(output, dict) else ""}),
+                ("completeness", COMPLETENESS_PROMPT, {
+                    "transcript": transcript,
+                    "output_summary": output.get("summary", "") if isinstance(output, dict) else "",
+                }),
             ]:
-                runs = []
-                for _ in range(JUDGE_RUNS):
-                    r = judge_once(prompt_template.format(**kwargs))
-                    runs.append(r)
-                    time.sleep(0.5)
+                per_judge = {}
+                for judge_key, judge_id in JUDGE_MODELS.items():
+                    runs, latencies, costs = [], [], []
+                    for _ in range(JUDGE_RUNS):
+                        r, lat, cost = judge_once(judge_id, prompt_template.format(**kwargs))
+                        runs.append(r)
+                        latencies.append(lat)
+                        costs.append(cost)
+                        time.sleep(0.3)
+                        judge_cost_log[judge_key]["total_cost"] += cost
+                        judge_cost_log[judge_key]["total_latency"] += lat
+                        judge_cost_log[judge_key]["calls"] += 1
 
-                scores = [r.get("score") for r in runs]
+                    scores = [r.get("score") for r in runs]
+                    per_judge[judge_key] = {
+                        "final_score": majority_vote(scores),
+                        "runs": runs,
+                        "avg_latency_s": round(sum(latencies) / len(latencies), 2),
+                        "total_cost_usd": round(sum(costs), 5),
+                    }
+
+                opus_score = per_judge["claude-opus-4-5"]["final_score"]
+                mini_score = per_judge["gpt-4o-mini"]["final_score"]
                 entry[dim] = {
-                    "final_score": majority_vote(scores),
-                    "runs": runs,
+                    "final_score": opus_score,  # primary judge
+                    "per_judge": per_judge,
+                    "agreement_delta": judge_agreement(opus_score, mini_score),
                 }
-                print(f"    {dim}: {scores} → {entry[dim]['final_score']}")
+                print(f"    {dim}: opus={opus_score} mini={mini_score} delta={entry[dim]['agreement_delta']}")
 
             all_results[model_key][slug] = entry
 
     out_path = RESULTS_DIR / "llm_judge.json"
     out_path.write_text(json.dumps(all_results, indent=2))
+
+    cost_path = RESULTS_DIR / "judge_cost_log.json"
+    cost_path.write_text(json.dumps(judge_cost_log, indent=2))
+
+    print(f"\nJudge cost summary:")
+    for jk, stats in judge_cost_log.items():
+        avg_lat = stats["total_latency"] / stats["calls"] if stats["calls"] else 0
+        print(f"  {jk}: ${stats['total_cost']:.4f} total, {avg_lat:.2f}s avg latency")
     print(f"\nSaved to {out_path}")
 
 
