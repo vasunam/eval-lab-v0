@@ -1,0 +1,409 @@
+Aman Khan
+What if the product manager came to the meeting with prototypes? What if you come to the design team and instead of a PRD, you actually already have your mocks? With AI, it's super feasible for a product manager to come to a meeting and say, hey, I already have some ideas here.
+I wanted to mock them up this way. They're probably wrong, but at least the starting point now looks a little bit higher resolution.
+Lenny Rachitsky
+For people that want to say pivot their career to be an AI PM, what helped you move in that direction?
+Aman Khan
+It's almost counterintuitive, but I actually think it's probably easier now to break into AI product management than it was before. There are these incredible videos that are being put out right now on YouTube on how to build an app in an hour, that would not have been possible even a year ago.
+Before you actually probably needed to have more of a foundation and background in machine learning to get a shot at one of these companies building AI products.
+Lenny Rachitsky
+What have you seen separates the typical AI product manager from say the top 5%?
+Aman Khan
+Really the question you have to ask yourself is...
+Lenny Rachitsky
+Today my guest is Aman Khan. Aman is director of product at Arize AI, and over the course of his PM career, he's focused on building products in the AI space, including at Spotify on the ML platform team and roles at Cruise, Zipline and Apple.
+He's also very intentionally stayed an individual contributor, which feels like a trend, especially with the rise of AI tooling making PMs much more productive and companies cutting back on management layers. And so in our conversation, we go deep on these two topics, how to get into AI and how to become an AI product manager?
+What the different types of AI product managers are? How to thrive as an AI PM? And what Aman has learned about how to be successful and continue his career as an individual contributor PM long-term?
+When I asked people on Twitter and LinkedIn who their favorite individual contributor product manager is, Aman was near the very top of the list and so I was really excited to get him on the podcast and to learn from his experience.
+If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing future episodes and then helps the podcast tremendously. With that, I bring you Aman Khan. Aman, thank you so much for being here and welcome to the podcast.
+Aman Khan
+Amazing. Thank you so much for having me, Lenny. It is truly an honor to be here.
+Lenny Rachitsky
+So let me give a little context on this conversation. I put out a call on Twitter and LinkedIn asking people for their favorite IC product managers, and you came up near the top of the list across both Twitter and LinkedIn, so I knew that I needed to meet you. And you're super interesting in a couple of ways.
+One is if I think about the Venn diagram of some of the most interesting trends in product right now, you're kind of at the center of AI and staying IC, an individual contributor, for a long time.
+And my sense is a lot of PMs are thinking about how do I get into AI and how do I do more AI work. Two, there's this trend of just ICs, super ICs, less managers, and you've been doing AI for a long time, you've been an IC for basically your whole career very intentionally.
+So with that, there's a few things I want to spend our time on. One is how to get into AI, how to become an AI PM essentially? Two is how to thrive as an AI PM? And three is how to thrive as an IC outside of AI, but I know AI plays into that?
+Broadly, how does that sound?
+Aman Khan
+Yeah, that sounds great. I think that was a crazy moment of just seeing how many people piled onto that, those posts, and then some of our discussion back and forth on this thread.
+And I thought it was super interesting, it was this combination of product and AI where just happens to be, I think where the space is headed or what seems to be catching so much attention. So yeah, I'm super excited to dive into that and try and share a little bit that I've learned along the way as well.
+Lenny Rachitsky
+This episode is brought to you by Pendo, the only all-in-one product experience platform for any type of application. Tired of bouncing around multiple tools to uncover what's really happening inside your product?
+With all the tools you need in one simple to use platform, Pendo makes it easy to answer critical questions about how users are engaging with your product and then turn those insights into action. Also, you can get your users to do what you actually want them to do.
+First, Pendo is built around product analytics, seeing what your users are actually doing in your apps so that you can optimize their experience. Next, Pendo lets you deploy in-app guides that lead users through the actions that matter most. Then, Pendo integrates user feedback so that you can capture and analyze what people actually want.
+And the new thing in Pendo, session replays, a very cool way to visualize user sessions. I'm not surprised at all that over 10,000 companies use it today. Visit Pendo.io/Lenny to create your free Pendo account today and start building better experiences across every corner of your product. P.S.
+You want to take your product-led know-how a step further, check out Pendo's lineup of free certification courses led by top product experts and designed to help you grow and advance in your career. Learn more and experience the power of the Pendo platform today at Pendo.io/Lenny. This episode is brought to you by Vanta.
+When it comes to ensuring your company has top-notch security practices, things get complicated fast. Now you can assess risk, secure the trust of your customers and automate compliance For SOC II, ISO 27001, HIPAA and more, with a single platform, Vanta. Vanta's market-leading trust management platform helps you continuously monitor compliance, alongside reporting and tracking risk.
+Plus, you can save hours by completing security questionnaires with Vanta AI. Join thousands of global companies that use Vanta to automate evidence collection, unify risk management, and streamline security reviews. Get $1,000 off Vanta when you go to vanta.com/Lenny. That's V-A-N-T-A.com/Lenny. Let's start with getting into AI PM, becoming an AI PM.
+There's this term that we hear a lot in AI PM, it's like bootcamp certifications become an AI PM. What's the simplest way for people to understand what that means other than just it's a PM that works with AI? Is there something more concrete that you think about when you see that title?
+Aman Khan
+So product manager is responsible for bringing together design, engineering, the biz dev people, operations, sales, what have you at the organization and going and shipping impact. So you're responsible for representing the customer and ultimately getting to a solution to solve their problems.
+I think in addition to that, the AI component is, I really break it down into maybe three flavors of AI product management. So the first is AI platform PMs, and that's kind of where I find myself. These are people who are building tools for AI engineers. So for context, I work at a company called Arize.
+We're a observability and evaluation platform for artificial intelligence. We've been around for a few years, we started with machine learning and ranking, regression, classification models, basically any recommender system or black box you might find in an application. And we've slowly been translating and pivoting over into broadly speaking, any type of AI.
+These days, it's a lot of large language models. And so I think that with the rise of all of these tools that are being built on top of Open AI's APIs or Anthropic APIs, basically any tools on top of the large language model providers, it's actually pretty clunky. These interfaces are pretty new.
+We've only really had people building on top of large language models for a couple of years, and so the whole space is really nascent and the tools that you would use to build on top of and understand is my app doing the thing I expect it to do, is really, really early.
+So that's the space I'm focused on around enabling AI engineers to understand the impact. And if you're an AI PM at another company, one of our customer companies, you understand that when you go to leadership, that my app is actually doing something and doing what I expect it to do on the end business.
+I think on top of that there's also AI product PMs. And AI product PMs are really the flavor of PM where the core product is centered around AI. And an example of that would actually be something like a ChatGPT.
+Actually, another good example would be, you had Raiza on, and NotebookLM is a really great example of that too. What I mean by that is, the core experience is enabled by the model underneath the hood. That's sort of the secret sauce.
+You have these researchers and engineers really pushing the boundaries of technology forward in AI and then your job is really to package that technology and make it consumable for either a business or enterprise or a consumer to really utilize that tech in some way.
+So that's sort of the AI powered PM role, where the core competency, the core tech is really what you're packaging and distributing. I think the third type of PM here is really the one we were talking about a little bit earlier, which is this concept of you're an AI powered PM.
+And to that end, I think that you're going to be enabled by AI technology across the entire stack of the role you might already be doing as a product manager. And we'll get into a little bit what that means as well, have some ideas and thoughts around that.
+But really what an AI powered product manager in my mind does is, you're not really responsible for building the core model from the ground up.
+Maybe you don't have the access to the resources or research teams that you might have a Google or Open AI, but you can still utilize large language models, or models of any kind really, to build an experience that is best for your customers.
+And that's really I think where a lot of PMs will also start trending towards as AI becomes more pervasive from a technology standpoint. It almost feels a little bit like AI will be as common as the database to some degree for SaaS applications.
+And so I think that's really where if you really break it down, I kind of see in the future, in the near future, most PMs are probably going to be one flavor of an AI product manager, either building tools for other PMs or other companies that are deploying AI.
+Maybe you're behind one of the cutting edge models that's going to go and be the next NotebookLM, or you're building around a transformer of some kind or a GPT model that's doing some part of the work that you would want to do to solve a customer's problem.
+Lenny Rachitsky
+Let's actually make it even more real, what are some tools you use in your PM work to be more efficient and productive?
+Aman Khan
+I'm obsessed with Cursor, I'm obsessed with Replit. These are tools I use all the time to just really build a prototype and try to understand myself what's possible. That is super enabling for a product manager to show up with a functional prototype.
+It's not going to be the thing you go and ship in production, but at least the buttons work and maybe it's wired up reasonably correctly to tell a story. There's a really great tool, a lot of folks might be familiar with Vercel if you're trying to create a landing page.
+So Vercel now has a starting point called v0, which allows you to type in a prompt and get a really beautiful landing page on top of that. And it doesn't have to be just a landing page, if you prompt it correctly and iterate with it, you could actually get a pretty good working UI as well.
+So I think that gives you a good starting point for some of those initial mock-ups you might be having with the design team. I also think if you're designing interfaces, you might want to use AI for graphic design.
+Perhaps you're trying to come up with a logo or you're trying to come up with something that resembles almost like the user story you want to tell in some way and make it like a visual user story.
+I think that becomes so much more approachable with tools like Midjourney, or even DALL-E and it's really at your fingertips to how well can you prompt this thing to get you the output that you want. So to me, it really depends.
+I think if you're an experiences company, you might trend a little bit more visual tools, like image generation might be really powerful too. So that's one example. And then I think even for 3D modeling, there's some emerging tools there.
+I'm definitely not the expert on that domain, but there's a lot in terms of if you're building physical products, that's gotten a lot easier as well.
+Lenny Rachitsky
+Okay, awesome. I want to come back to where we started here. So you've shared three types of AI product managers.
+We've been focusing on the third, which I wanted to get to and I love that we went there, which is just how to be more productive, efficient, better as a PM using all these amazing tools that now exist. The first two are, just to refresh folks' memory, one is becoming basically an infrastructure PM.
+That's something that you're doing, basically building the base models and tools. And then the other is building the UX and actual consumer experience of a product that happens to integrate AI to make it better. So I'm guessing when people think AI PM, that's probably where they're like, I want to build products that deeply integrate AI.
+For people that want to say pivot their career to be an AI PM, what helped you move in that direction/what would you recommend folks try to do and learn to be able to get a job in one of those two buckets?
+Aman Khan
+I feel a little bit like an outsider on the space myself. I wasn't related at all, the field I studied was mechanical engineering. I didn't really take computer science courses, I had to learn a lot of that on my own.
+And I didn't take machine learning or AI courses either, I don't have a PhD or master's in the subject. But coming back to both types of product managers you just described, there's the AI PM who's building infrastructure for other AI engineers, and there's the AI power product manager who's building AI products really.
+And I think in both cases, you care about the end customer. At the end of the day, you really want to be in love with the problem.
+I know that you said that, that was a great, great quote in my mind as well of, if you're in love with the problem, you are trying to push the boundaries of what's possible with technology to solve that problem.
+And for me, I really became obsessed trying to help really technical users, AI engineers, data scientists, with problems that I thought were not super challenging, like how do I build a dashboard to understand how my model is working? That can't be that hard to do.
+And then as you get deeper, the complexity starts to emerge in that part of the stack and you have to realize you pushing, you're actually responsible for pushing technology forward in some ways. You're trying to see what's possible and keep pushing the space forward to solve that customer problem.
+I think the same thing is true for AI product managers, meaning you're really trying to design the best customer experience and really solve your customers' problems.
+And I think if you are obsessed with that and you spend time just trying to realize, what would an ideal experience look like that I'm trying to solve, you'll find tools along the way to help unbox really that problem.
+So I think if we take an example of that, let's imagine that you're working for a company that might be having customers that have customer support problems or people coming in with complaints. And when you think about the surface area of customer support, it's not that great.
+You usually have to type in some questions with a chatbot that's routing perhaps incorrectly, some document to go solve a problem. Or if you're trying to call in, you have to describe your problem, but you're not really sure if you're being heard correctly. It might be super long wait times.
+And if you're the product manager of that experience, I think an ideal product experience really looks like a customer reaches you with a problem and you're able to really solve that problem for them. And it doesn't really matter what's in between, you want to reduce the friction of that as much as possible.
+And so now when you think, okay, let's assume that I'm starting with a phone call, there's a ton of tools that are starting to emerge. And I think a really cutting edge one from the last couple of weeks has been Open AI releasing a real time API.
+And the real time API is basically a voice API where you can provide some text and almost have this real time experience with a bot that is actually AI generated. And if you're a consumer, you can even try that out in the application yourself.
+You can open up ChatGPT and if you're a Plus subscriber, you can try this cutting edge sort of voice chatbot experience. And why is this interesting?
+Because if you're a consumer and you're trying out technology and you're trying out AI technology and trying to push the boundaries of what's possible, I think you can have that light bulb aha moment of, I can take this thing that kind of feels like it's early but it could be something here, and go take it to my team and say maybe it's possible for us to use this thing.
+And so I think that's really what this whole space is about. I want to underscore that, you are really driven by your own curiosity. And your curiosity can push you in a lot of different directions in terms of the types of tools you might want to pick up for yourself or even implement in your own product.
+So I think it truly is this opportunity for people to see what drives them and try and find the tools that really help make that experience possible.
+Lenny Rachitsky
+To pull on this thread a little bit more, say someone wants to apply, I want to be an AI PM, there's two questions here. One is, what do you recommend they specifically learn skill-wise, technical-wise, to have some chance at becoming an AI PM?
+If that's a thing versus just like, hey, just you're a PM, build awesome products and they happen to integrate AI. That might be the best solution. If that's your advice, definitely say that.
+Aman Khan
+I think you're hitting on something on a point that's super relevant to today, which is it almost feels really competitive now to be in tech and to be a product manager. And the struggle is really to your point, what are the skills I should have to really even apply for this role in the first place?
+And then how do I stand out as an applicant? I feel like these are maybe two distinct things. You want to start with a foundation of what is machine learning, what is AI? What's the knowledge that has really powered this evolution in technology? And you want to keep driving in that direction with what are your interests?
+So there's really two dimensions, you're trying to understand, okay, what are the things I need to know, and then how can I use that in the problems I'm trying to solve or the industries that interest me? So I think there's this propensity of you want to be driven by that curiosity.
+So you could start with your fundamentals of looking at videos on YouTube of Andrej Karpathy talking about the foundation of LLMs. It's this great amazing resource. He put out this video a little while ago. It's about an hour long, but you could put it into NotebookLM, maybe get a more succinct version.
+But the idea is that you can really understand the technology in terms of how it works and what the boundaries are. And then I think that the other dimension is just trying to use the tools to figure out yourself how can I push the boundaries of what's possible?
+So I think the combination of those two things are really what drive the skill level here. Maybe to bring this back to an earlier point, there is no program, there's no college degree on product management, so there definitely isn't a college degree on AI product management.
+And so I think the way that you stand out is through showing interest in the space and building your own skill set and skill stack around what is the foundation of AI and how do I apply it to the industry I'm interested in?
+And that's actually related to the second point of how do I stand out as an applicant?
+And it feels like this moment where you can actually go and have almost like a portfolio of products that you've tried to build and maybe they're just prototypes, but they really help you stand out to a hiring manager that might be deciding who's the person I want to bring on board.
+And maybe to zoom out for a sec, as someone who's been a part of the hiring process for AI PMs before, I think the hiring process is really designed to understand three things about a person, and that's can this person do the job I'm hiring them to do?
+Are they excited to do the work that we do here, and do I like to work with them?
+And so I think by having this portfolio where if you have that foundation of AI and ML of at least being able to describe what the technology can do, and then you have this portfolio of products, you're actually answering both of those questions for the hiring manager even before they talk to you.
+So you're shortcutting the process by showing them how you think and how you like to spend time and what your interests are and hobbies are. And then all you have to do is really nail that phone interview.
+And as long as you match the culture of the company, I think you've actually shortcuted part one and part two, which is why they're this sort of, you have to go talk to three different people to see can you do marketing, can you do engineering, can you do core product management?
+And so that's really my advice is really, you could start with building your skill stack and starting with the foundation up, let your curiosity drive you and then turn that into a portfolio that you can use as an applicant to stand out.
+Lenny Rachitsky
+So what I love about this is basically, I wouldn't say the hack to get hired as an AI PM, but just the way you will come across as clearly this person is worth paying attention to. You've actually built things with AI like actual products, especially now that it's much easier to do as.
+You can use tools like the ones you mentioned, Cursor, v0, Replit. You can storyboard out your ideas using the stuff you mentioned, Midjourney, DALL-E and things like that. So I love that, it's super tactical.
+So it's almost like if you're applying for an AI PM role and you don't have products that you have built and ideally put out into the world, you're not going to have a good time.
+Aman Khan
+I actually think it's probably easier now to break into AI product management than it was before. So let me hit on that point a little bit more, which is before you actually probably needed to have more of a foundation and background in machine learning to get a shot at one of these companies building AI products.
+They required a depth of knowledge in machine learning and types of models, and you were probably more deeply involved in what should the training data look like and the split of the data and how do I launch this thing and all of this infrastructure.
+But really now, an AI product manager is someone who's building experiences around or for other AI product people. And so an example there would be, there are these incredible videos that are being put out right now on YouTube on how to build an app in an hour.
+And I credit Greg Isenberg, he's really pioneered some of this format of he'll show up and just like, here's how I built a product within 45 minutes and how you use the same tools we just described.
+And I have this tongue in cheek example a little bit too that's pretty relevant, which was I was trying to describe Replit to someone, to a friend of mine, who actually was basically saying, I don't really have time to learn another tool right now.
+It feels like there's so much in the space and I think there's really nothing better than just showing someone what's possible. So I open up my phone and Replit, you can just go to as a URL on your phone.
+And what you can do is type in a prompt to their Replit agent and it will literally build a website for you and host it within a matter of seconds. And what's really funny is I just built this example of build me a signup page for this newsletter.
+And it did actually a pretty reasonable job on first pass, but there's things you want to do to keep iterating on it. So then it prompted again, oh, make it look a little bit nicer, use these colors. And within five minutes, I had a working prototype for a signup page that I built on my phone.
+That would not have been possible even a year ago.
+And I think the way that the technology is, trending is things will keep getting easier, and as a product manager, your curiosity is going to keep pushing you forward so that you can be the person out there saying, hey, did you see this cool thing that I just pulled up?
+And you're really the one that's almost the expert on what's the cool new thing that you can go and apply at your company. So I think that's really part of the role too, is being interested, genuinely curious of the space too.
+Lenny Rachitsky
+I'm really happy you shared that. And it reminds me, I'm just going to go on a tangent here, I want to get your take on this, I had this kind of hot take a month ago or so, there's this sense that as AI tooling emerged, that product managers are screwed.
+Why do you need product managers when you could just build things, engineers could use all these tools, designers? What's the point of a PM in a world where AI can just build things for you?
+And I realized it's exactly the opposite, that you may not need any other function if you have a PM, because if you think about it, what are these AI tools amazing at? They're amazing at building things. You tell them what to build, they build them.
+The hardest part becomes knowing what to build, finding opportunities, problems people need solved, and then articulating it very clearly to an AI tool, what to build. And then having the taste and sense of what is good and great and what will work in the market. And that's exactly the job of a product manager.
+So I'm curious to hear your take if you agree with that, basically that PMs are the best positioned function to thrive in this world?
+Aman Khan
+Yeah, I totally believe that. I think that there's a feeling that executives might have or VPs of companies might have of like we need to get into AI, but the challenge is that there's this inclination towards doing the same thing that's working so far.
+And so I think the role of an AI PM in this type of organization is really to be the representative of how can we use these tools to their highest leverage.
+And so if you combine the earlier notes of, you know what this technology is capable of, you know the customer problems deeply, you're the representative of the customer at the company, you're really in the best position to get the point across of what should go and get built.
+And I think that's a really powerful position to be in at a company. And then I'll actually build on one of the core product skill sets that you mentioned on your podcast too, which is influence.
+And what these tools really allow you to do is up level, like max out that influence, meaning you can now communicate ideas, coming back to the prototype note to design, you can communicate ideas to engineering, and you can communicate ideas to the higher ups at the company around what should go and get built.
+So I think when you're able to translate the idea to the person that you're trying to communicate it to, these tools are really incredible at that. And I think it allows an AI product manager to be super high leverage.
+So to me it's like, I totally agree, being an AI product manager feels like the highest leverage position you could be in at the company right now, especially in the age of AI.
+Lenny Rachitsky
+Awesome. Okay, I'm glad we agree there. And what you just mentioned, we were talking about Mihika before we started recording, and one of her superpowers and we'll link to her episode is that she is designer engineer PM, she can just do all of it.
+And that partly has been why she has been so successful at Figma and influencing leadership to build these products that they were like, nah, I don't know if we need a slides product. And so now everyone can be a Mihika basically that you can build and design as a PM.
+So anyway, I think we've gone down that road far enough. I want to shift a little bit to talking about how to thrive as an AI PM. Say you got into this role, you're building with AI tools, or you're building platforms for folks to build on. Let me ask this, let me try it this way.
+What have you seen separates the typical AI product manager from say the top 5% AI product managers?
+Aman Khan
+We talked about what are AI product managers, how do you build AI powered products around what the fundamental technology is? I think there was this really interesting moment where about two years ago, actually almost roughly to this time, ChatGPT launches, and I think everyone who tried it out was pretty impressed by a couple of things.
+The interface was super easy to use, it felt really intuitive. The model was pretty capable, it felt almost like human-like. Of course that was actually an earlier model than what's even available today, and when you look back on it's almost like looking at the old iPhone or something.
+You kind of have to have this moment of, wow, that was really impressive at the time, but now if you try to use it, you're like, this thing sucks. It doesn't even do half the stuff. You get conditioned to the technology continuing to get better.
+But when that moment happened and it did kind of feel like this iPhone moment around AI products, it was really interesting to see what happened next. And what I mean by that is we sit in the landscape at a place where we get to see where a lot of other companies are building.
+So we have customers that are super well known, household brands, Spotify and Instacart and these sorts of companies that people love and use every single day.
+And what ended up happening was we talked to a lot of folks of like, well, what are you doing around building around this technology, this really game changing sort of shift in AI? And the first thing that everyone seemed to build was actually another ChatGPT, but on top of their own data.
+And for some reason everyone gravitated towards this particular use cases. All the AI product managers I knew were like, oh, we're building an internal chatbot on top of our knowledge base, and it's going to be able to answer questions and it's going to be great.
+And when you look at the products that were built, how much usage do they really have is I think not very well understood. Was that the right thing to do? So coming back to your earlier question, how do you go and thrive as, be a top 5% AI PM, versus maybe an AI PM that isn't as stellar?
+I actually think it's coming back to that earlier point of don't do what everyone else is doing. Just because it feels intuitive to go and replicate this interface that feels really great and everyone's bought in because they're familiar with it, you really have to think, is this the thing our business needs right now?
+Is this the problem that we need to go and solve? And I think if you look deeper at that, you'll actually find that the interface for AI might look really different. It won't necessarily look like a chatbot.
+It might look like you're trying to optimize or speed up a part of the process that humans have to do today that you can make their life easier. And for us, that was data analysis.
+We have to look at a lot of data to make decisions within our own company and so we decided to try to automate that. We did also ship a small chatbot just to understand how the tech work, but on top of that, our interface around AI looks so, so different.
+And I think that a lot of the cutting edge experiences around AI kind of look like that too. They don't really always resemble chatbots. And I think that that's really the question you have to ask yourself is, what's the right interface when I'm designing a product like this?
+Lenny Rachitsky
+So what I'm hearing is, if your team is building something that's very similar to some other, to a foundational models product for example, probably a red flag, probably not going to be a huge opportunity. So optimize for things that feel different and new. Anything else you want to add there? Because I have a question.
+Aman Khan
+Yeah, I think that's almost like a point of what do people do for the last two years, and now there's this moment of this actually happening again. And this moment is happening around the term of AI agents.
+I think if you really look at it, I actually bring up Yuriy's point again because I was listening to that episode, I thought that was so insightful of he gets so many emails every single day of, we're AI for this, we're building an AI agent for that.
+But again, you're sort of trying to fit this technology to solve a problem that, you're not really describing the problem. You're describing the solution, an AI agent to do something.
+So if you look at it, I'd really ask yourself, does it make sense to build an AI agent within our company or is it just better to allow the foundation model companies to build this agentic layer within their technology?
+And then your job is to make that experience so amazingly seamless in your existing product, that it doesn't even feel like AI in the first place. And I think that's really powerful. That's the area where product managers can truly innovate.
+Because let's be honest, you're probably not going to have these cutting edge researchers that can go and design a model from the ground up or maybe design some new technique to build a next agent framework.
+But what you can do is take that technology and find a way to apply it in your organization, and that's where I think the role of the AI PM really stands out.
+Lenny Rachitsky
+This episode is brought to you by Paragon, the developer platform for building native customer facing integrations with third party apps. Our native integrations on your product roadmap, whether it's to ingest context from your users' external data and documents, or to sync data and automate tasks across your users other apps, integrations are mission-critical for B2B software products today.
+But building these integrations in-house cost an average of three months of engineering according to the 2024 State of Integration Survey, which results in difficult roadmap trade offs. This is why engineering teams at Copy.ai, AI21, and over 100, other B2B SaaS companies use Paragon so they can focus their efforts on core product features, not integrations.
+The result, they've shipped integrations seven times faster, all while avoiding the never ending maintenance that comes with rolling your own integrations. Visit useparagon.com/Lenny to see how Paragon can help you accelerate your product's integration roadmap today and get $1,000 in credit on their Pro and Enterprise plans. That's usePARAGON.com.
+I imagine a lot of product leaders are hearing this and be like, thank God I need everyone on my team to hear this, because I am guessing every PM and every company is looking and proposing all these ideas, all these AI based ideas just because it's like, oh, we got to do AI.
+Here's an idea, here's an idea, and there's all these people chasing AI products. And so I think this advice is really important, and this has come up a number of times, people just try to keep reminding folks, focus on the problem you're solving and AI is a tool to solve it, not AI for blank just because.
+How have you found ways to find really interesting, actually good ideas for how to leverage AI within your company or companies you've seen?? Is it hackathons? Is it like we have our goals and just make sure there's AI parts to a solution? Is there anything practically that you find helpful in finding good ideas that are AI oriented?
+Aman Khan
+There's three things you could do in your company that I think will really, if you try to implement this tomorrow, you'd probably start seeing those ideas coming back. So the first one is, you actually brought up an earlier point of how do I measure, what should I be measuring here?
+And I think that PMs gravitate towards metrics, and I actually think that every AI PM actually needs a metric. And every PM within a business is tasked with moving some business metric, but there actually isn't one for building prototypes with AI.
+Which is really interesting, I've talked to so many companies and I'm like, how do you measure what the impact is of AI within your business? They're like, oh, well we're not expecting it to move a business metric, it's not moving revenue. So then how do you really measure if what you're doing is working?
+And I think that's where you need a metric of how many shots are you taking in the first place? And that kind of ties into the next point which is, I think hackathons are great. I think that getting people to be hands-on in the first place, it really removes that feeling that this technology is not approachable.
+So the goal is really to get everyone in the organization to try to use this thing. And I think that's really actually a great position for an AI PM to be in as well.
+So oftentimes, I think there's this aversion sometimes to hackathons because it's taking away from company time, but what you can do is try to come with some ideas of problems to be solved and then see how can I use AI to actually solve those problems?
+What you're going to come out with is maybe a list of 10 problems and nine of them you try to apply AI towards and it doesn't work.
+It's like, this thing doesn't work as well as I thought it would, or it's like you're trying to get a very specific answer, but AI doesn't actually do a good job of that.
+I actually have an example here of we actually did our own hackathon a couple of weeks ago, and the engineering team had all these ideas and one of them was this Slackbot that actually alerted a person that was on call for a problem.
+So we thought it was going to be so simple, if someone posted on a support channel, hey, I'm having a problem with this thing, the Slackbot would take that question and actually ping the right person. We thought, oh, this is going to be great.
+This is a perfect use case for AI and we'll give access to this table and we'll look at problems, we'll classify them, and then ping the right person.
+It turns out that's actually a really hard problem to do, because there's so much context that is missing in, well, this person was working on this problem two weeks ago, but now they're working on this other project and some other team took over.
+And I think the challenge there is really identifying the right problems to solve in the first place. And a good intuition to build around that is through hackathons, through coming with problems, and then seeing where the ideas actually stick versus where they actually aren't super great.
+And then I think the last point here is really obsessing about the details of the user experience in the first place. And you were looking for problems to go and be solved with AI, but I think part of that is really looking at what are successful AI products today?
+And you can probably try a few, name a few, but a good example of that might be, and really if I zoom out, the goal is really to find experiences where AI is actually magical and what do they get right.
+So an example of that might be there's this funny anecdote of, what a lot of people are trying to do with AI is automate the job away entirely.
+And there's this story of Betty Crocker actually launching this cake mix where all you have to do is mix water and you could kind of bake a cake with just one ingredient. All you needed was this cake mix. And it turns out that actually tanked their sales.
+So all you have to do is basically change the instruction so that all you have to do is add eggs. And that one thing created this effect where their sales skyrocketed, because they realize that customer actually wants to have a little bit of control over the experience.
+And you can see that even now if you've been able to take a Waymo or a self-driving car, the car is fully self-driving, but you can still control the air conditioning, you can still control the music, and so you want to leave some knobs and levers for your customer to feel like they're still in control of the experience.
+And that's kind of like the Ikea effect applied to AI, people feel more empowered when they actually have an impact on the end experience versus everything being taken care of them. So that's just one insight we realized from looking at successful AI products versus ones that try to automate everything away.
+And I think if you're looking at the space, you're going to find so many more examples like that.
+Lenny Rachitsky
+That's such an important point, that even if you can build a product that is fully automated, you may not want to. And that Betty Crocker example is really interesting, it reminds me of Blue Apron and all these food making.
+I have a friend who told me that he cooks, he's cooking a lot these days and just finding all this time to cook, and then turns out he's using Blue Apron. It feels to you like you're cooking and you can tell people, hey, I'm cooking a lot, but it's not quite the same.
+Aman Khan
+Yeah. But actually if you don't mind, I could probe on that. That's a really interesting point with Blue Apron, because if you look at that product, what's the problem that they're trying to solve? Are they trying to get people to be fed or eat food? I don't think so actually.
+I think if you're really trying to solve that particular problem, you'd probably build something closer to like DoorDash, which is just you press a button and food shows up. And Blue Apron on the other hand, is trying to get people to feel like they're getting closer to cooking or feeling closer to the experience of making something.
+And I think that's sort of what really amazing AI products do as well. They're making your experience or the product, AI makes your product easier to use and it brings the barrier to creation down. And I think that's really what it's good at, not necessarily just trying to automate the problem away.
+Lenny Rachitsky
+Such an important point. Again, coming back to your main point here is just focus on the problem you're solving and AI could help you solve it, may not. Okay, we went on a tangent from advice you were sharing on what separates typical AI PMs from top 5% PMs, and what else you got?
+What you got on that list?
+Aman Khan
+Actually, I'll steal this one a little bit from our friend Kevin Yien, who I think he had this advice when he was on your pod, which really resonated with me actually at a personal level, which is you have to be able to walk and chew gum.
+So as an AI PM, your job is not to go and ship AI products, it's to go solve customers' problems. I think we've come back to that a little bit. But you're constantly going to be pushed by your team and your company to go and solve a business metric, move a business metric in some way.
+The goal though is to make space for the other things we were talking about, which is prototyping, you trying the tools firsthand yourself, making space for your team to have hackathons and try the tools themselves as well. Breaking down product experiences that are really great.
+So as an example, we did a teardown of the NotebookLM product just yesterday as part of our company. So we live-streamed it, and we're going to do this probably every week or two where we'll take a cutting edge AI product and have a webinar around it and try to break down how it works.
+And the goals there are to really understand the space better ourselves. But by the way, none of those three things are going to move your KPI or business metric. So I think I come back to that point of you have to be able to walk and chew gum.
+You have to continuously deliver customer value while also creating space to iterate and fail and find the experiment that you tried to launch and people really excited about may not work, but in the process, you learn something.
+And that's I think a really powerful takeaway, which is to really stand out as an AI PM, you have to accept this technology is changing really fast. You might think it's going to do something great, or maybe you have a bad product experience.
+I think you had a point earlier as well, which is to be a really great chef, occasionally you're going to have a bad meal. I think that's going to be the same thing here with your AI product diet. You're going to try some bad experiences, you're going to have some failures, but the goal is to keep iterating.
+And that's how AI gets better, I think that's how companies can deploy AI better too. So don't give up on the North Star. Just find ways to make space to have AI propagate within your organization, and I think really stellar AI PMs do that.
+Lenny Rachitsky
+I feel like as a metaphor of walking and chewing gum, doesn't communicate the difficulty of Kevin's, now that I think about it, of what he's trying to describe. Doesn't feel hard to walk and chew gum, I wonder what a better metaphor would be.
+Aman Khan
+Yeah, well I think it's-
+Lenny Rachitsky
+Dance and bubbles. Maybe gum bubbles and dance.
+Aman Khan
+Yeah, I don't know why that is, that's the expression, but it's always meant to describe something hard that you realize you can't do more than one thing anyway.
+Lenny Rachitsky
+Anyway, we don't want need to solve it right now. So I want to talk about being an IC, being successful as an IC.
+Before we get to that, is there anything else along these lines that you think would be really valuable to share or get into about how to be successful as an AI PM specifically that we haven't touched on? I know we've talked about a lot of things now.
+Aman Khan
+Your organization might want to do something and you're trying to get them to do something else, and that's really the challenge in this type of role is, there is so much buzz, there is so much excitement around AI, that knowing what the right thing to build is really what this job needs to convey.
+So I think when you take all of that signal and you try and put it together and solve that customer problem, that's really what being a successful AI PM is at the end of the day. I think that's the hard part about the job, but also maybe the most important impactful part of it.
+Lenny Rachitsky
+I love that. Okay, so let's put AI to the side for a moment, but not totally off to the side. Imagine we're going to touch on it in this next area, and this next area is talking about how to be a really successful IC.
+You've very consciously decided to stay an individual contributor and not move up the ladder of product management and director and VP and all these things. And there's a specific skill set that it takes to be successful and to thrive as an IC PM.
+Most people either can't move up the chain and become really successful ICs long-term, or they don't want to, or they don't even think it's an option. So here's my question here. What are some of the biggest habits, mindsets, lessons you've learned about how to be really successful as an IC long-term?
+Aman Khan
+When I think about my own career journey here, so much of that comes down to what drives you personally, and I'm just obsessed with solving customers problems. And so to do that, that might mean I have to spend a lot more time trying to get into the weeds and get into the details.
+So I think that there's really three areas, three things that come back to me of what the hard part about being an IC PM is and how you can break through that. I first want to set the tone a little bit which is, being an IC PM is really hard.
+I made a point earlier of, it's become easier to break into product management to some degree if you can use these tools, and now you have all these tools at your disposal to go build the next prototype, but I think the bar just got higher for product managers within a company and what the impact needs to be.
+And by the way, that's always going to compete with being able to jump on a quick call last minute or try to unblock someone, or have some internal stakeholder discussion to figure out what to go do next.
+And so I think the challenge is, you have a really hard job, there's constant signal, things are constantly changing, how do you really power through that? So I think that there's really three things I think about there, which are energy, waiting versus wandering, and then amplifying the signal to make a decision.
+So maybe to even just kick off, energy, I really think about this as, this was maybe one of the most important things I realized working with our CEO a little bit over a year ago, which was energy can count a lot when you're not sure which direction to go.
+If you show up to a meeting and you bring a little bit more of that energy, you'll find that a lot of friction tends to go away, versus if you show up and you're a little bit down or a little bit not as enthused about an idea, people pick up on that.
+And we're still dealing with people today, and I think that even if you just change that mindset a little bit of bringing a little bit of that extra energy, you'll find that that can actually break down barriers and the conversation feels like it's flowing.
+It feels like a dinner table conversation versus a hard conversation, even if it might be something about something tough. So I think to me, there's this concept of, you might still be faced with this challenge of I'm not sure what the right decision is, and I'm struggling to really do this analysis and really get something going.
+I think accepting that that happens to everyone, it sort of feels like a product block as opposed to a writer's block, if that makes sense. Where as a writer, you might be trying to get to that next paragraph, and as a product manager, you're really trying to get to that next idea or that next milestone.
+So I can give you an example there as well, which is we had this moment a little over a year ago where we were not sure which direction to take a product feature.
+And we were faced with this decision that felt pretty existential, which is how much do we want to invest in LLMs and the new wave of large language model tech versus what our existing customer base was. And it wasn't immediately clear what the decision should be.
+And so the energy I just brought was, I'm just going to be our outbound salesperson and just start writing LinkedIn messages to people that have the title AI in their LinkedIn profile. So I just went on LinkedIn and literally just started finding ways to get them on a phone call.
+So I'd write some copy and iterate on it, and I had to sit with our sales team to understand how do you do this? I maxed out my five LinkedIn messages a day, what are you trying to do here? And I think what that really accomplished was sort of two things.
+One, I did learn a little bit of what goes into this role in terms of how to message our problem and product more in a way that actually got people engaged? But two, it also demonstrated to the team that I was willing to get into the details with them.
+I was willing to spend time even when I was trying to push on our day job of building a product and keeping it growing. And I think that counts for a lot when the team is already feeling like they're not sure which direction to take something.
+And so just being that player coach and just having that mentality of showing up, bringing the energy, can move the bar so much higher for the whole team to operate.
+So that's the example I give of, you're kind of like being LeBron James, you're coaching people, you're drawing up the play, but you're also just trying to be as involved in all of the tough stuff as well.
+And I see that happen, I think that really comes from leadership from our CEO as well, he'll be tired, I can tell, but it's just when he shows up to a meeting, he just doesn't show it. You just have to kind of bring that energy.
+Lenny Rachitsky
+So what I'm hearing is there's two things you're sharing here, which is awesome. So one is, there's actual energy in a meeting of staying positive and energetic.
+And then two is actually just doing the thing to figure help solve the problem, getting into sales, becoming the salesperson potentially, reaching out, doing customer development in your own, kind of going rogue a little bit. In that first bucket, what does it look like to bring the energy? Is it just volume? Is it just being bright?
+Aman Khan
+I actually think this depends a lot on the person. I think that's actually a personal thing. So what I mean by that is, for me, that might mean I'm showing up, I'm super enthused, I'm bringing my version of energy.
+But to other people, that might mean smaller things like just asking how someone is doing, trying to keep the tone of the meeting more positive, I think to some degree. So to different people, that might resemble different things.
+But I actually think this comes back a little bit to an earlier point of, humans are really good at picking up on these subtle signals with other people. And you want to just be putting out this subtle energy where people feel like you are engaged, you're in it 100%.
+So I think that's part of it, I think it's the idea's for other people to feel like you're bringing the energy level of the room up versus bringing it down.
+Lenny Rachitsky
+I had a PM I was working with at one point that is the epitome of that. Every meeting he walks into, he's just like, solve some problems, let's do this. He comes in just positive and energized and that just changes the whole feeling.
+Aman Khan
+I remember this early Lyft anecdote, I have some friends from the earlier days at Lyft, and I think this may have been in the self-driving car division, but they would literally, I'm not even kidding, this was their ritual where they would actually end the meetings with the phrase, make it happen.
+And I thought that was so powerful, because it's so simple, but it's like, all right, we're going to do this. It was one of their values, and we walk away from a decision and we're going to make it happen.
+And I think even just as something as small as that could be a contribution back to the culture for your team. And maybe there's a point there of building culture too, you get to determine the culture of the people around you. You get to build a culture of the team and that can really work its way up.
+There's top down culture, there's values, but you get to kind of drive what people in the room are feeling. And I think that's really, really powerful.
+Especially in the role of a PM where everyone looks to the PM for making a decision or solving a problem, even if it's a tough one to make, but you get to drive the energy that you're bringing to that.
+Lenny Rachitsky
+Absolutely. Okay, so your first piece of advice for doing well and thriving as an IC PM is essentially that energy can count for a lot.
+That if things aren't actually going smoothly, you can pull people through that by bringing energy, which is both meetings and being positive and energizing folks in discussions, and also just doing the work yourself to get to the core problem and helping people see that you're actually putting in your own effort and time to solve the problem.
+Aman Khan
+Yeah, and even just to riff on that second point, I think that there's this component of when you are doing the thing with someone and you pair with them on a problem, you have a lot more empathy for what they do as well, because they'll describe to you what's challenging or what's hard about that job.
+And I think that there's this feeling that, at least teams I've been a part of, where there is no job that isn't important.
+And so you as a PM, I think if you're spending that time with someone, that means that you're learning something from them and you're learning, having empathy for what they might be doing day in and day out, but you're also pushing back and contributing and trying to make the whole team push along better as well.
+Lenny Rachitsky
+Awesome. So let's keep talking about other things you found helpful in helping you be really successful an IC PM. You mentioned this term wandering versus waiting, maybe we go in that direction or if there's anything else.
+Aman Khan
+Actually, I think this one is so, so powerful, which is the concept of waiting versus wandering. And to me, this is super relatable again from the standpoint of trying to figure out what to go do next. So we talked about energy, bringing energy, but that still doesn't actually solve the problem of where should we go.
+That's just the latent energy you're going to bring to solving a problem. But at the end of the day, you as the product manager have to figure out where do things go? What's the problem to be solved and how do we solve it really for a customer?
+And there's this thought exercise, this zoom out of, it kind of feels a little bit like if you're all at a camp where you're trying to figure out, okay, where do we go send the scouts to go take the rest of the camp and move things along?
+And there's definitely this inclination towards executives and companies, especially broader companies, to do what's been working so far, and that can often mean let's just wait and see.
+And I think that's super interesting from the concept of AI, there's this feeling of should we wait and see where things go or do we go and try and figure out what direction to move our team? And most companies might lean towards waiting to see how things pan out.
+And we're seeing that even with AI, they're like, oh, we'll just wait for the next Open AI model to come and then we'll go build a product around that. I keep hearing that there's this rumor of some other model or we're going to wait and see.
+But I think at the end of the day, there's times when waiting might make sense to see what technologies get built initially, but then there's also this component of wandering and trying to figure out where should we go? Where should we take the team?
+And to me, I actually think the role of a PM is to be that wanderer.
+And I have this story of, there was this moment in the company's history where I was grabbing a beer with one of our engineering managers and he was like, look man, I'd show up and I'm like, maybe I wasn't bringing 100% of my energy at this end of the workday.
+And I was like, I'm just not sure where to take things and what we're doing right now. And it was so interesting to hear his perspective of, in his world, everything was actually going pretty reasonably well. It was like, we kind of knew, he had his roadmap, he knew what to go build.
+He had the next feature, the next three weeks of sprints planned out or something like this. And he was like, oh, the team's actually doing really great, the morale is really high. And yet on the product side, we were confused, we were really unsure about what to do.
+And I think it can be hard to be that wanderer. It felt really tough to be out there in the unknown, just trying to find any sort of signal that we could bring back and say, okay, here's where we need to go and take the next features and the next part of the company.
+And that part was really tough, but I actually think that's where, to an earlier part of the discussion, where an AI PM can really stand out is in being a natural wanderer and naturally feeling a little bit like their role is to push the boundaries of what the company thinks is even possible.
+And to do that, you sometimes have to be in this space that feels really squishy. And I remember talking to our founders of. I'm not sure what we should be going and doing next. And it was actually really reassuring to hear from them.
+I remember having this conversation and Aparna, our chief product officer was like, that's what building zero to one really feels like. It kind of feels like you're not sure what the right decision is or where the right direction to go is, but at the same time you know when you get there.
+And so you just have to keep wandering and iterating until you feel that drag of the product pulling you in that direction.
+So I think there's just this feeling comfortable with not being sure what the right decision is and just wandering and trying to figure things out, while the rest of the camp might have to wait and see what that next move is. So that to me I thought was this really visceral feeling of, where do we go?
+Where do we go from here?
+Lenny Rachitsky
+My takeaway here is if you're feeling like you have no idea where your product is going to go, maybe be okay with that. And in your experience, you eventually find the path as you wander.
+And with AI tools making it much easier to prototype and design an ideate, in theory it makes that a little less stressful because you can actually just try stuff.
+Aman Khan
+And I think that's the amplifying the signal with through the noise with AI. The signal can be super sparse you get back at times too.
+And then what you can do is there's really powerful tools, we use Gong for instance to understand what are maybe prospects or really engineers, to me it's like potential customers, what are they talking about? What is their pain point?
+And I can't go be in 100 meetings every single week, but what I can do is take those transcripts, and we literally did this, we fed them into some of these large language models that have super long context windows now. And what you can do is actually pull out what's the most common problems that come up?
+Having a conversation around that can be really powerful too. Now you can do it with voice too, so you can pull all of that in. Maybe you want to turn it into a NotebookLM episode, but what you can do is actually just find ways to find signal through the noise.
+And that kind of gives you an ability to almost have a superpower, because you can be in so many places at once and use technology to your advantage to get that signal back. So I would really try to find ways to scale yourself up with AI and come back with that signal.
+Lenny Rachitsky
+Anything else along these lines of things that have helped you be really successful as we wrap up and approach our very exciting lightning round?
+Aman Khan
+Product management can feel pretty serious, there's some big decisions that weigh on your shoulder. But honestly I remember having this discussion with one of our board members actually, and he's a serial entrepreneur, he's taking companies public, and it was like, what advice do you have for me as a PM early in this company?
+And I was so surprised by the feedback he had, which was just have fun. And I think if you let that drive you and you keep learning and you're keeping this curiosity and building products for customers that you care about, it's just going to help you go so much further.
+And I just think it's just more fun to be high energy, it's just more fun to really care about the thing that you're working on. And I think if you're constantly learning and having fun, you're going to iterate so much faster too.
+So that's really my note is, just have fun along the way, it really is about that journey. And sometimes you're wandering, but have fun with that too.
+Lenny Rachitsky
+I love that so much and it resonates so deeply with me as I've shared a couple of times on this podcast to folks that listen probably have heard this, but I'd have this little Post-it that I put right in front of me as I do podcasts that just says, Have fun. And it's like the lamest little Post-It.
+Aman Khan
+Is it really tore it up at this point from, or is it like?
+Lenny Rachitsky
+It's like I just bent a Post-it in half and just road have fun on the edge and then it just sits here. I don't know, Post-its are meant to stick to stuff, but this is how I decided to use it.
+This also came up recently in this episode that I think is going to come out right before this around public speaking, this course that I took Ultraspeaking, the biggest piece of advice they have is speaking should be fun.
+So just think about how do you have fun while you're doing this, even though it feels really scary, and that works really well. So I really love that.
+Aman Khan
+It's just more fun than not having fun. It's like a really silly line.
+Lenny Rachitsky
+It is. And even if it's very stressful and scary, just reframing it too, how do I have fun. Most cases, the end of the world, the end of my career, or the end of something really serious, most of the time you can have fun.
+Aman Khan
+Totally, yeah.
+Lenny Rachitsky
+Awesome. Well Aman with that, we reached our very exciting lightning round. Are you ready?
+Aman Khan
+Ding, ding, ding.
+Lenny Rachitsky
+There's a ding that comes that we overlay. So I always have to resist not saying ding, ding, ding.
+Aman Khan
+I know. Yep, I'm ready. Let's do it.
+Lenny Rachitsky
+First question, what are two or three books you've recommended most to other people?
+Aman Khan
+I really love A Short History of Nearly Everything by Bill Bryson. That book to me is so interesting because I'm a bit of a nerd around science, I used to read a lot of fiction growing up too.
+And I think weirdly enough, Bill tells this story of the history of science really and how we know the things that we know, and he kind of tells it from the perspective of learning about the scientists that discovered these things.
+So for instance, you learn that Newton was kind of an asshole to the co-workers he had, or Darwin wasn't maybe perceived as such an amazing scientist at the time. And a lot of these scientists, their discoveries don't become famous. It's almost like being an artist, where you realize the relevance of a scientist's discovery years later at times.
+And people don't get credit for things that they discovered. So to me, it was really interesting to one, read more about the scale of the universe and how long we've been here. And I think it just puts a lot of things into perspective of our time here, how we spend it.
+And even the age we're living in now with AI, it's such a blip in the cosmic scale. And then you also get these really fun anecdotes from scientists along the way. So that one I recommend to almost everyone, because it's a pretty easy read as well.
+And then I think another one, which is maybe a little bit more in the career lens, is this book called Designing Your Life, which is written by actually one of the founders of IDEO, and these folks are Stanford professors in the Design Lab. And what's really powerful about this for me is it's actually pretty practical.
+So it comes with exercises that I remember I did myself as well when I wasn't sure which direction to go in my career, that helped me really figure out, the most powerful exercise and take away from this book for me was basically in the first or second chapter I think, you write out one page on the meaning of work to you and what does work mean?
+Is it a way for me to make money? Is it a way for me to feel fulfilled with what I do or how I spend my time? And then you write out one page on the meaning of life.
+And what's really powerful is it's really, really hard to do those two things, and then you have to find the overlap between the two.
+And I think that exercise is so clarifying and I recommend it to anyone when they feel stuck in their career, because it can at least, coming back to the energy point, can give you a direction to go even if you're not sure how to get there just yet.
+And so I love both of those books because they're really shifting from a perspective standpoint.
+Lenny Rachitsky
+I love that second book, I read it and it was really meaningful to me. But it's been long ago and I forgot it now, but I remember it was really great. And so I'm glad you brought that up. Next question, do you have a favorite recent movie or TV show you really enjoyed?
+Aman Khan
+I don't usually binge watch TV. To be honest, I am not a binge watcher. But it's been a little rainy in New York lately, so we've had a little bit more time inside on weekends and I've been obsessed with the Tour de France documentary on Netflix. I don't know if, have you've seen that?
+I don't even know if it gets pushed up that highly in the Netflix algos, but I think it's super cool. One, I love cycling, so for me it's like you really realize that competitive level of cycling is just such another level that I even realized or gave credit to.
+And then two, coming back to the characters in the story, I think they're all just so interesting to hear what motivates them to be at this extremely high level. It's actually the same producers as Drive to Survive, which I know people really got into as well around F1. But yeah, highly recommend it and it's intense.
+I'm going to start there. I didn't realize what I was going to get to, but it just ramped up in more and more intensity and yeah, really enjoyed it.
+Lenny Rachitsky
+Is there a favorite product you recently discovered that you love? Maybe an AI product, maybe not.
+Aman Khan
+So I think we talked a little bit about AI products that help you prototype. Replit is incredible, it's so easy to use, v0. And these are all really, I think they create really polished products at the end of the day. But the product that really, that I've been using and having a ton of fun with is Websim.
+I think it creates this almost playful version of the prototype in the first place you might be trying to build, or just something so crazy and wacky and zany that you're not even sure is possible.
+And it's so hard to describe, I remember I saw a presentation from some of the founders at Websim at an AI meetup here, and even they, when they were showing how to use the product, they literally just went on Reddit and they were just looking at the Websim sub-Reddit that has so many posts on it, and the presentation was just them looking at the top three or four and trying to describe what they saw.
+So I've just been obsessed with it lately just to push the boundaries of what's possible. I also do have another product as well. Initially when I thought about this question, I was like, what's the product I've been using the most lately? And this one's going to sound kind of weird.
+But I'm a little bit old school and I actually like you, I like to write notes in physical notebooks. And so I am always looking for like, oh, what's a really practical notebook to use?
+And this was really weird, but I was recently given a notebook from actually an AI meetup here, and I opened it and it's made from recycled apples. And when you open the notebook, it smells like apples, which is really interesting because I didn't think that that would impact me as much as it did.
+But it created this interesting feedback loop where I just really love using the notebook, because when I open it, I have this positive experience immediately. It's like sensory experience immediately that it's like, oh, it just smells so great. And then you want to keep using it and coming back to it.
+So I thought that was really interesting to create this feedback loop in my head of I enjoy using that notebook now. I'm not sure what that means when I run out of papers in this one if I'm going to buy another, but that was really funny. I didn't expect to like that one as much.
+Lenny Rachitsky
+You're making me hungry, I can almost smell it. What is the brand of this notebook in case folks want to look it up?
+Aman Khan
+It's called Appeel, A-P-P-E-E-L.
+Lenny Rachitsky
+Amazing. I need it, I need that. Two more questions. Do you have a favorite life motto that you often come back to find useful in work or in life? I feel like you're going to have a good one.
+Aman Khan
+There is specifically one that I ended this essay that I wrote a while back with called, I read a bunch of self-help books so you don't have to, and I share it with my friends. It's literally just called that, that are not sure what to do when they're in that next phase of their career as well.
+And the quote is from Steve Jobs which is, "Your time is limited, so don't waste it living someone else's life." And I thought that was so powerful, because when you think about it, I feel like there's a lot of career pressure for some people to get that next job or start a company or do something super crazy.
+And at the same time, I think what's been really powerful for me has been to reassess what my goals are and what life I want to live, and not feeling the feeling of what other people's projections of that life are.
+And so that quote in particular has always been something I've come back to, which is what sort of life do you want to live? And thinking about that really deeply and making decisions along the way based on that.
+Lenny Rachitsky
+I truly love that sentiment. And it came up recently in another conversation with JM Nickels. But let's move on, actual final question. So as I was researching you, I was Googling your name, and when I Googled your name, there's a cricket player very prominently comes up.
+Curious how much that bothers you that there's this cricket player that is number one on Google in many ways? Tell us about how that feels.
+Aman Khan
+Oh my God. This is going to sound crazy, but literally, I was thinking about this yesterday. It's going to sound crazy. The immediate thought that came to mind was, my parents really didn't optimize my name for SEO.
+And the only thing I'm going to do now, and I think about when I have kids, they're going to have some unique names, because it gets so much harder. You have to type in Aman Khan San Francisco or Berkeley or something to get that to pop up. So yeah.
+Lenny Rachitsky
+So it does bother you, is the take away here. Okay.
+Aman Khan
+We'll iterate all that for the next.
+Lenny Rachitsky
+Or this is a goal, I feel like you have the chance to beat this guy.
+Aman Khan
+Totally, right? Or maybe another way to look at it is if we still keep using search engines, and it's funny because my partner works at Google, the future might look like what if we're using LLMs more? It kind of gives me a second shot here to be part of the training data set in a way.
+Lenny Rachitsky
+Amazing. I love the silver lining there. Aman, this was amazing. I think this is going to be helpful to so many people trying to get into AI, trying to thrive as an AI PM, or just wanting to stay down the IC track.
+We went through so many things, my notes were very long and we touched on basically everything. So thank you so much for being here. Two final questions. Where can folks find you if they want to reach out and maybe follow up on some of this stuff, and how can listeners be useful to you?
+Aman Khan
+LinkedIn is probably the best way. I'm not super active on X, though might spend a little bit more time there, but LinkedIn easily. And then to that note, how can listeners be helpful?
+I think my goal is to try to be as helpful for folks that are trying to figure out how to get to this next part of their career, whether it's involving AI or they want to pivot into it or they want to thrive as an AI product manager.
+So love to hear stories of people that are interested in this part of their career or this career path.
+I think the thought I'll leave people with is I'll respond to anyone that messages me, but I do have one condition there, which is if you're cold emailing, cold messaging, kind of coming back to how to stand out, I think there was this note from John Dory, spoke at the college I went to, and he put his email up on the board and his note was, "I'll email anyone who emails me as long as you send me your top three favorite books, movies, podcasts, or videos that impacted you in some way, and I'll do the same for you."
+And so I actually did that, emailed him and got back his top three as well. So I want to carry that forward and would love to hear from folks, send me your top three whatever pieces of content they might be, and I'll do the same for you.
+Lenny Rachitsky
+That's an amazing collection you're going to build. I want to see all these things too. I love that idea. It's almost like a mini lightning round, what a clever idea. Aman, thank you so much for being here.
+Aman Khan
+Thank you so much, Lenny. This has been awesome. Really, really had fun with this one.
+Lenny Rachitsky
+Same for me. Bye everyone. Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast.
+You can find all past episodes or learn more about the show at LennysPodcast.com. See you in the next episode.

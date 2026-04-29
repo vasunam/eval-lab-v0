@@ -28,7 +28,7 @@ I tested **Claude Opus 4.5**, **GPT-5.2**, and **Gemini 3.1 Pro** on summarizing
 ## Reproducing
 
 ```bash
-git clone https://github.com/vasunam/eval-lab-v0
+git clone https://github.com/namrathavasu/eval-lab-v0
 cd eval-lab-v0
 cp .env.example .env  # add your API keys
 
