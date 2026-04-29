@@ -42,7 +42,7 @@ Score: 0.0–1.0 (fraction of checks passed). Weight Type 1 at 20% of the compos
 
 **Completeness** — Does the summary capture the 3 most important ideas? Score 5 = covers the ideas any PM should walk away with.
 
-Judge model choice: Claude Opus 4.5. Also include a cheaper baseline judge (e.g., GPT-4o-mini) and report cost/latency tradeoffs and spot-check agreement between judges.
+Judge model choice: Claude Opus 4.5 — strongest available reasoning model, best for nuanced qualitative judgment.
 
 ### Type 3: Human eval (CLI)
 
@@ -52,7 +52,7 @@ Rubric: "Would I forward this to a PM friend?" (1–5)
 * 3: Would share with caveats — useful but not memorable
 * 5: Would share immediately — specific, actionable, I learned something
 
-All 24 outputs rated (8 episodes × 3 models) by the project author. Add at least two additional independent raters and report inter-rater agreement (Cohen's kappa); use majority vote or average score to compute the final human rating.
+All 24 outputs rated (8 episodes × 3 models) by the project author. One additional independent rater rates a 12-output subset (4 episodes × 3 models); report inter-rater agreement (Cohen's kappa) on the shared subset and use the average score as the final human rating.
 
 ## MVQ thresholds (Marily Nika's framework)
 
