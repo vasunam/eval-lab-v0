@@ -1,0 +1,23 @@
+[project]
+name = "eval-lab-v0"
+version = "0.1.0"
+description = "LLM eval comparison: Claude Opus 4.5 vs GPT-5.2 vs Gemini 3.1 Pro on Lenny's Podcast summarization"
+requires-python = ">=3.11"
+dependencies = [
+    "litellm>=1.40.0",
+    "plotly>=5.20.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "tiktoken>=0.7.0",
+    "nbformat>=5.10.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "jupyter>=1.0.0",
+    "ipykernel>=6.29.0",
+]

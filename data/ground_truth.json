@@ -1,0 +1,50 @@
+{
+  "cat_wu": {
+    "title": "How Anthropic's product team moves faster than anyone else",
+    "guest": "Cat Wu",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "kevin_weil": {
+    "title": "OpenAI CPO on model maximalism and evals",
+    "guest": "Kevin Weil",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "aman_khan": {
+    "title": "Arize AI on building a rigorous eval system",
+    "guest": "Aman Khan",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "marily_nika": {
+    "title": "Google Gen AI PM on the MVQ framework",
+    "guest": "Marily Nika",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "brendan_foody": {
+    "title": "Mercor CEO on eval as PRD",
+    "guest": "Brendan Foody",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "hamel_shreya": {
+    "title": "Hamel Husain and Shreya Shankar on the evals masterclass",
+    "guest": "Hamel Husain & Shreya Shankar",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "aishwarya_kiriti": {
+    "title": "Non-determinism in AI products",
+    "guest": "Aishwarya Naresh Reganti & Kiriti Badam",
+    "reference_summary": "",
+    "reference_takeaways": []
+  },
+  "itamar_gilad": {
+    "title": "Gmail/YouTube PM on evidence-guided product management",
+    "guest": "Itamar Gilad",
+    "reference_summary": "",
+    "reference_takeaways": []
+  }
+}
